@@ -8,4 +8,17 @@ to send email.
 
 The Basics
 ----------
-twistd -ny keepmail.tac
+sudo twistd -ny keepmail.tac
+
+It will bind to port 25 (hence the need to sudo)
+
+TODO
+----
+- Allow the port to be passed as a parameter
+
+CREDITS
+-------
+Current code is basically a copy of this example from the Twisted site:
+http://twistedmatrix.com/projects/mail/documentation/examples/emailserver.tac
+
+In the future, hopefully the code will diverge from this!
