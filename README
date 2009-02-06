@@ -1,0 +1,11 @@
+===============================================================================
+======= Keepmail: a mail server which keeps mail instead of sending it ========
+===============================================================================
+
+Keepmail keeps copys of mail it recieves, but does not send it on. It is
+designed to be used for development and testing of your applications which need
+to send email.
+
+The Basics
+----------
+twistd -ny keepmail.tac
